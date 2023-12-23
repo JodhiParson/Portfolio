@@ -571,11 +571,97 @@ footer img:hover{
     margin-top: 2rem;
     text-align: center;
 }
+.lucida_learn_label {
+     font-size: 60px;
+     margin-top: 60px;
+}
 
+/*       MEDIA QUERIES         */
+/*For Small Devices*/
+@media screen and (max-width: 440px) {
+    nav {
+        text-align: center;
+    }
+    nav ul li {
+        font-size: 65% ;
+    }
+    #title-description {
+        font-size: 4.5vw;
+        top: 45%;
+        left: 0;
+    }
+    .bio {
+        padding-bottom: 0;
+    }
+    .profile-text1 {
+        font-size: 5vh;
+    }
+    .profile-description {
+        font-size: 2.5vh;
+        margin-top: 0;
+    }
+    .lucida_learn_label h2{
+      font-size: 5vh;
+      text-align: center;
+    }
+    .three-col {
+        display: grid;
+        padding-top: 1rem;
 
+    }
+}
 
+/* Between Small and Medium screens*/
+@media screen and (min-width: 441px) and (max-width: 549px) {
+    nav {
+        font-size: 15px;
+    }
+    #title-description {
+        top: 47%;
+        left: 5%;
+        font-size: 15px;
+    }
+    .bio {
+        padding-bottom: 0;
+    }
+    .profile-text1 {
+        font-size: 5vh;
+    }
+    .profile-description {
+        font-size: 2.5vh;
+        margin-top: 0;
+    }
+    .lucida_learn_label h2{
+      font-size: 5vh;
+      text-align: center;
+    }
+    .three-col {
+        display: grid;
+        padding-top: 1rem;
 
+    }
+}
+/*   For Medium Screens   */
+@media screen and (min-width: 550px) and (max-width: 1023px) {
+   #title-description {
+    top: 60%;
+   }
+   .bio {
+    padding-bottom: 0;
+   }
+   .profile-description {
+    font-size: 3vh;
+   }
+   .lucida_learn_label {
+    font-size: 5vh;
+    text-align: center;
+   }
+   .three-col {
+    display: grid;
+   }
+}
 
+/*   For Large Devices   */
 
 
 /* Color Codes:
