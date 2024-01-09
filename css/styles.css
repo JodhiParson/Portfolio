@@ -156,13 +156,13 @@ h1 {
     bottom: 0;
     height: 35vw;
     width: 100vw;
-    display: block;
+    display: flex;
+    justify-content: center;
     background: linear-gradient(to top, #000000, transparent 50%);
     
 }
 .fade-transition img {
     position: absolute;
-    right: 700px;
     bottom: 100px;
     height: 60px;
 }
@@ -675,7 +675,7 @@ footer img:hover{
         margin-top: 0;
     }
     .lucida_learn_label h2{
-      font-size: 5vh;
+      font-size: 60px;
       text-align: center;
     }
     .three-col {
