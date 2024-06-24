@@ -13,6 +13,11 @@ body {
     margin: 0;
     background-color: black;
     font-family: 'Libre Franklin';
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
   
 }
 
