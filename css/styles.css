@@ -13,6 +13,11 @@ body {
     margin: 0;
     background-color: black;
     font-family: 'Libre Franklin';
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
   
 }
 
@@ -156,13 +161,13 @@ h1 {
     bottom: 0;
     height: 35vw;
     width: 100vw;
-    display: block;
+    display: flex;
+    justify-content: center;
     background: linear-gradient(to top, #000000, transparent 50%);
     
 }
 .fade-transition img {
     position: absolute;
-    right: 900px;
     bottom: 100px;
     height: 60px;
 }
@@ -675,7 +680,7 @@ footer img:hover{
         margin-top: 0;
     }
     .lucida_learn_label h2{
-      font-size: 5vh;
+      font-size: 60px;
       text-align: center;
     }
     .three-col {
